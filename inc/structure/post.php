@@ -15,13 +15,13 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 		<?php
 		if ( is_single() ) {
 			storefront_posted_on();
-			the_title( '<h1 class="entry-title" itemprop="name headline">', '</h1>' );
+			#the_title( '<h1 class="entry-title" itemprop="name headline">', '</h1>' );
 		} else {
 			if ( 'post' == get_post_type() ) {
 				storefront_posted_on();
 			}
 
-			the_title( sprintf( '<h1 class="entry-title" itemprop="name headline"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' );
+			#the_title( sprintf( '<h1 class="entry-title" itemprop="name headline"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' );
 		}
 		?>
 		</header><!-- .entry-header -->
