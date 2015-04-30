@@ -31,8 +31,16 @@ function add_my_currency_symbol( $currency_symbol, $currency ) {
      }
      return $currency_symbol;
 }
-#
-#function my_child_theme_setup() {
-load_child_theme_textdomain( 'storefront', get_stylesheet_directory() . '/languages' );
-#}
-#add_action( 'after_setup_theme', 'my_child_theme_setup' );
+
+
+function my_child_theme_setup() {
+	load_child_theme_textdomain( 'storefront', get_stylesheet_directory() . '/languages' );
+}
+
+add_action( 'after_setup_theme', 'my_child_theme_setup' );
+
+add_filter( 'locale', 'change_language' );
+
+function change_language( $locale ) {
+    return 'es_VE';
+}

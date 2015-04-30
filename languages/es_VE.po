@@ -18,7 +18,7 @@ msgstr ""
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Lo siento esta páginas no puede ser encontrada"
 
 #: 404.php:19
 msgid ""
@@ -28,7 +28,7 @@ msgstr ""
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Categorías mas Usadas"
 
 #: 404.php:43
 msgid "Try looking in the monthly archives."
@@ -48,7 +48,7 @@ msgstr ""
 
 #: comments.php:60
 msgid "Comments are closed."
-msgstr ""
+msgstr "Los comentarios se encuentran cerrados"
 
 #: content-none.php:13
 msgid "Nothing Found"
@@ -105,7 +105,7 @@ msgstr ""
 #: inc/admin/welcome-screen/sections/add-ons.php:97
 #: inc/admin/welcome-screen/sections/add-ons.php:110
 msgid "Activated"
-msgstr ""
+msgstr "Activado"
 
 #: inc/admin/welcome-screen/sections/add-ons.php:21
 #: inc/admin/welcome-screen/sections/getting-started.php:39
@@ -627,7 +627,7 @@ msgstr ""
 
 #: inc/structure/footer.php:60
 msgid "%1$s designed by %2$s."
-msgstr ""
+msgstr "Implementado por <a href='http://ongen.com.ve'>Ongen</a>"
 
 #: inc/structure/header.php:52
 msgid "Primary Navigation"
@@ -664,7 +664,7 @@ msgstr ""
 
 #: inc/structure/post.php:79
 msgid "Categories: "
-msgstr ""
+msgstr "Categorías: "
 
 #: inc/structure/post.php:92
 msgid "Tags: "
@@ -672,57 +672,57 @@ msgstr ""
 
 #: inc/structure/post.php:101
 msgid "Leave a comment"
-msgstr ""
+msgstr "Deja un comentario"
 
 #: inc/structure/post.php:101
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Comentario"
 
 #: inc/structure/post.php:101
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentarios"
 
 #: inc/structure/post.php:117
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: inc/structure/post.php:118
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: inc/structure/template-tags.php:26
 msgid "Product Categories"
-msgstr ""
+msgstr "Categorías de Productos"
 
 #: inc/structure/template-tags.php:54
 msgid "Recent Products"
-msgstr ""
+msgstr "Productos Recientes"
 
 #: inc/structure/template-tags.php:82
-msgid "Featured Products"
+msgid "Clasificados Products"
 msgstr "Productos Clasificados"
 
 #: inc/structure/template-tags.php:110
 msgid "Top Rated Products"
-msgstr ""
+msgstr "Productos Mejor Calificados"
 
 #: inc/structure/template-tags.php:138
 msgid "On Sale"
-msgstr ""
+msgstr "En Venta Ahora"
 
 #: inc/woocommerce/template-tags.php:18
 msgid "View your shopping cart"
-msgstr ""
+msgstr "Ver carrito de compras"
 
 #: inc/woocommerce/template-tags.php:19
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d elemento"
+msgstr[1] "%d elementos"
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Resultado de busqueda para: %s"
 
 #. Theme Name of the plugin/theme
 msgid "Storefront"
@@ -773,4 +773,4 @@ msgstr ""
 #: inc/structure/post.php:161
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "por Ongen"
