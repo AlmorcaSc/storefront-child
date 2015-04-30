@@ -42,5 +42,5 @@ add_action( 'after_setup_theme', 'my_child_theme_setup' );
 add_filter( 'locale', 'change_language' );
 
 function change_language( $locale ) {
-    return 'es_VE';
+    return 'es_ES';
 }
