@@ -23,14 +23,14 @@ require get_stylesheet_directory() . '/inc/structure/footer.php';
 require get_stylesheet_directory() . '/inc/structure/comments.php';
 require get_stylesheet_directory() . '/inc/structure/template-tags.php';
 
-#/**
-# * Custom functions that act independently of the theme templates.
-# */
+/**
+ * Custom functions that act independently of the theme templates.
+ */
 #require get_stylesheet_directory() . '/inc/functions/extras.php';
-#
-#/**
-# * Customizer additions.
-# */
+
+/**
+ * Customizer additions.
+ */
 #if ( is_storefront_customizer_enabled() ) {
 #	require get_stylesheet_directory() . '/inc/customizer/hooks.php';
 #	require get_stylesheet_directory() . '/inc/customizer/controls.php';

@@ -48,6 +48,12 @@ add_action( 'storefront_footer', 'storefront_credit',			20 );
  * @see  storefront_popular_products()
  * @see  storefront_on_sale_products()
  */
+function remove_parent_actions() {
+#	remove_action( 'homepage', 'storefront_homepage_content',		10 );
+	remove_action( 'homepage', 'storefront_on_sale_products',		60 );
+}
+add_action( 'init', 'remove_parent_actions');
+
 add_action( 'homepage', 'storefront_homepage_content',		10 );
 add_action( 'homepage', 'storefront_product_categories',	20 );
 add_action( 'homepage', 'storefront_recent_products',		30 );
