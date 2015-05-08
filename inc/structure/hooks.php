@@ -50,6 +50,7 @@ add_action( 'storefront_footer', 'storefront_credit',			20 );
  */
 function remove_parent_actions() {
 #	remove_action( 'homepage', 'storefront_homepage_content',		10 );
+	remove_action( 'homepage', 'storefront_product_categories',		20 );
 	remove_action( 'homepage', 'storefront_on_sale_products',		60 );
 }
 add_action( 'init', 'remove_parent_actions');
